@@ -17,7 +17,7 @@ func main() {
 	//fruits := [2]string{"apples", "oranges"}
 	fmt.Println(fruits)
 
-	//slices
+	//slices - Slices are like references to arrays
 	var fruits2 = []string{"a", "b", "c"}
 	//fruits2 := []string{"a","b","c"}
 	fmt.Println(fruits2)

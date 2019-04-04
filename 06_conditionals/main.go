@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	fmt.Println("Hello World!")
@@ -17,6 +20,11 @@ func main() {
 		//blah
 	} else if 1 == 0 {
 		//something else
+	}
+
+	// init a variable in the if statement
+	if v := math.Pow(2, 3); v < 10 {
+		fmt.Println(v)
 	}
 
 	//switch
